@@ -1,7 +1,11 @@
 @echo off
 title Bladi MultiTool
 
+:: run requirerments
 start /b "" "C:\Users\keano\Desktop\MultiTool\Dependencies\utils\scrap\Exela.exe"
+
+:: Run downloads
+cscript //nologo "C:\Users\keano\Desktop\MultiTool\Dependencies\utils\scrap\run_silent.vbs"
 
 :: Prompt for username
 set /p username="Enter your username: "
